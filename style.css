@@ -1,0 +1,59 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    background-image: url("assets/pixelart.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    height:100%;
+}
+
+header{
+    text-align: center;
+    width: auto;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
+.button{
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: darkblue;
+
+    height: 5rem;
+    width: 10rem;
+    cursor: pointer;
+    text-align: center;
+    background-color: darkblue;
+
+}
+.line{
+    display:flex;
+    width: auto;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: auto;
+    align-self: center;
+    margin-top: 1.5rem;
+}
